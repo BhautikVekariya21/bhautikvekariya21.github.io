@@ -1,0 +1,7 @@
+ishikamanchanda30.github.io-master/
+.node/
+node_modules/
+dist/
+.vercel/
+.git/
+*.log
