@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
 import NavBar from "./Components/NavBar"
 import NavMobile from "./Components/NavMobile"
 import Home from './Pages/Home'
@@ -24,7 +24,7 @@ const MainLayout: React.FC = () => {
 const App: React.FC = () => {
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<MainLayout />} >
           <Route path="/" element={<Home />} />
