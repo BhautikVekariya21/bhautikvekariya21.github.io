@@ -24,14 +24,14 @@ const devProject:DevProjects[] = [
         techStack: ['XGBoost', 'FastAPI', 'Docker', 'MLflow', 'DVC'],
     },
     {
-        title: "AI Interview System",
-        subtitle : "Full-Stack AI & Cloud Infrastructure",
+        title: "AI Interview Platform",
+        subtitle : "Hyper-Realistic AI Mock-Interview Experience",
         year : "2025",
         imgURL : ai_interview,
-        desc : "An end-to-end AI mock-interview platform with resume parsing, role-aware question generation, and voice-enabled flows (TTS/ASR). Architected a 10-module FastAPI backend with Cassandra persistence, semantic resume retrieval using ChromaDB, and deployed the microservices stack on Kubernetes (EKS) with Kafka event streaming.", 
+        desc : "Built an end-to-end AI mock-interview platform that parses resumes, generates role-aware questions, and runs voice-enabled interviews with rubric-based evaluation. Features include the AI Confidence Pulse (live filler-word and pacing analytics), a Resume Proof Map that cross-references resume claims against interview evidence, anti-cheat proctoring, and a PDF scorecard with a 0–100 Interview Readiness Score. Powered by multi-provider LLM/ASR/TTS orchestration with automatic fallback, and deployed on a GitOps-driven, cloud-native AWS stack.",
         link : "https://github.com/BhautikVekariya21/ai-interview",
         gitlink : "https://github.com/BhautikVekariya21/ai-interview",
-        techStack: ['FastAPI', 'React', 'LLMs', 'Cassandra', 'Docker', 'Kubernetes', 'ChromaDB', 'Kafka'],
+        techStack: ['React', 'TypeScript', 'Tailwind', 'FastAPI', 'MySQL', 'Docker', 'Kubernetes', 'AWS'],
     }
 ]
 export default devProject; 
