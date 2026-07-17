@@ -2,7 +2,7 @@
 
 A sleek, premium, and fully responsive personal portfolio designed to showcase software development projects, machine learning applications (MLOps), graphic design artwork, and professional experiences.
 
-🚀 **Live Site:** [portfolio-navy-nine-j97aeex7ex.vercel.app](https://portfolio-navy-nine-j97aeex7ex.vercel.app)
+🚀 **Live Site:** [bhautikvekariya21.github.io](https://bhautikvekariya21.github.io/)
 
 ---
 
